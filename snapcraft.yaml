@@ -33,6 +33,7 @@ parts:
     source-type: git
     source: https://github.com/notepadqq/notepadqq
     source-subdir: src/editor
+    make-install-var: PREFIX
     after: [desktop-qt5] 
     plugin: make
     install: |
