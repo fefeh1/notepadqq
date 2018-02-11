@@ -7,7 +7,7 @@ description: |
 grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: devmode # use 'strict' once you have the right plugs
   
-app:
+apps:
   notepadqq: 
     command: desktop-launch $SNAP/bin/notepadqq 
     desktop: share/applications/notepadqq.desktop
