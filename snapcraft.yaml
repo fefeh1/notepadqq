@@ -34,5 +34,7 @@ parts:
     source: https://github.com/notepadqq/notepadqq
     after: [desktop-qt5] 
     plugin: autotools
+    configflags:
+      - --prefix=/usr
 
     
