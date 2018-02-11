@@ -33,5 +33,5 @@ parts:
     source-type: git
     source: https://github.com/notepadqq/notepadqq
     after: [desktop-qt5] 
-    plugin: cmake
+    plugin: make
     
