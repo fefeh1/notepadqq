@@ -36,7 +36,5 @@ parts:
     make-install-var: PREFIX
     after: [desktop-qt5] 
     plugin: make
-    install: |
-      make
-      make install
+
     
