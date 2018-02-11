@@ -34,4 +34,8 @@ parts:
     source: https://github.com/notepadqq/notepadqq
     after: [desktop-qt5] 
     plugin: make
+    install: |
+      cd notepadqq
+      make
+      make install
     
