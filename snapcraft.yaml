@@ -36,6 +36,7 @@ parts:
     after: [desktop-qt5] 
     plugin: make
     install: |
+      mkdir notepadqq
       cd notepadqq
       make
       make install
