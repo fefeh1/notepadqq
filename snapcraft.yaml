@@ -20,7 +20,6 @@ apps:
       - gsettings
       - optical-drive
       - removable-media
-      - raw-usb
       - media-hub
 
 parts:
