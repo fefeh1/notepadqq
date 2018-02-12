@@ -33,7 +33,7 @@ parts:
     source-type: git
     source: https://github.com/notepadqq/notepadqq
     after: [desktop-qt5] 
-    plugin: autotools
+    plugin: qmake
     configflags:
       - --prefix=$SNAPCRAFT_PART_INSTALL/usr
 
