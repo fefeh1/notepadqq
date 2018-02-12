@@ -26,15 +26,15 @@ parts:
     stage-packages: 
       
       - qtbase5-dev      
-      - libqt5webkit5
-      - libqt5svg5
+      - libqt5webkit5-dev
+      - libqt5svg5-dev
       - coreutils
 
     source-type: git
     source: https://github.com/notepadqq/notepadqq
     after: [desktop-qt5] 
     plugin: qmake
-    configflags:
-      - --prefix=$SNAPCRAFT_PART_INSTALL/usr
+    # configflags:
+    #  - --prefix=$SNAPCRAFT_PART_INSTALL/usr
 
     
