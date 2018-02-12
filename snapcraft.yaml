@@ -9,7 +9,7 @@ confinement: devmode # use 'strict' once you have the right plugs
   
 apps:
   notepadqq: 
-    command: desktop-launch $SNAP/bin
+    command: desktop-launch $SNAP/usr/local/bin
     # desktop: usr/share/applications/notepadqq.desktop
 
 parts:
