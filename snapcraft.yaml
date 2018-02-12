@@ -36,9 +36,12 @@ parts:
     stage-packages: 
       
       - qtbase5-dev      
-      - libqt5webkit5-dev
-      - libqt5svg5-dev
+      - libqt5webkit5
+      - libqt5svg5
       - coreutils
+      - gtk2-engines-pixbuf
+      - packagekit-gtk3-module
+      - libcanberra-gtk-module
 
     source-type: git
     source: https://github.com/notepadqq/notepadqq
