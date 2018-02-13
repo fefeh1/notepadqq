@@ -12,16 +12,18 @@ apps:
     command: desktop-launch $SNAP/usr/local/lib/notepadqq/notepadqq-bin
     desktop: usr/local/share/applications/notepadqq.desktop
     plugs:
-      - desktop
       - browser-support
-      - home
-      - opengl
-      - unity7
-      - x11
+      - desktop
+      - desktop-legacy
       - gsettings
+      - home
+      - media-hub
+      - network-bind
+      - opengl
       - optical-drive
       - removable-media
-      - media-hub
+      - unity7
+      - x11
 
 parts:
   my-part:
