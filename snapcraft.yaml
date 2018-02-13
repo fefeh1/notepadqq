@@ -11,6 +11,7 @@ apps:
   notepadqq: 
     command: desktop-launch $SNAP/usr/local/lib/notepadqq/notepadqq-bin
     desktop: usr/local/share/applications/notepadqq.desktop
+    icon: usr/local/share/icons/hicolor/scalable/apps/notepadqq.svg
     plugs:
       - browser-support
       - desktop
@@ -18,7 +19,7 @@ apps:
       - gsettings
       - home
       - media-hub
-      - network-bind
+#      - network-bind
       - opengl
       - optical-drive
       - removable-media
@@ -45,13 +46,8 @@ parts:
       - gtk2-engines-pixbuf
       - packagekit-gtk3-module
       - libcanberra-gtk-module
-#      - libfreehep-graphicsio-svg-java
 
     source-type: git
     source: https://github.com/notepadqq/notepadqq
     after: [desktop-qt5] 
     plugin: qmake
-    # configflags:
-    #  - --prefix=$SNAPCRAFT_PART_INSTALL/usr
-
-    
