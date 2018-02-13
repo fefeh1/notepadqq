@@ -42,6 +42,7 @@ parts:
       - gtk2-engines-pixbuf
       - packagekit-gtk3-module
       - libcanberra-gtk-module
+      - libfreehep-graphicsio-svg-java
 
     source-type: git
     source: https://github.com/notepadqq/notepadqq
