@@ -6,12 +6,12 @@ description: |
   You can search text using the power of regular expressions. You can organize documents side by side. You can use real-time highlighting to find near identifiers in no time.
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs
+icon: usr/local/share/icons/hicolor/scalable/apps/notepadqq.svg
   
 apps:
   notepadqq: 
     command: desktop-launch $SNAP/usr/local/lib/notepadqq/notepadqq-bin
     desktop: usr/local/share/applications/notepadqq.desktop
-    icon: usr/local/share/icons/hicolor/scalable/apps/notepadqq.svg
     plugs:
       - browser-support
       - desktop
