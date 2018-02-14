@@ -60,6 +60,8 @@ parts:
       - packagekit-gtk3-module
       - qtbase5-dev 
       - unity-gtk-module-common
+      - unity-schemas
+      - unity-session
       
       
 
