@@ -40,7 +40,7 @@ parts:
     stage-packages: 
       
       - qtbase5-dev 
-      - adwaita-qt
+      - adwaita-icon-theme-full
       - hicolor-icon-theme
       - libqt5webkit5
       - libqt5svg5
