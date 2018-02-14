@@ -61,7 +61,6 @@ parts:
       - qtbase5-dev 
       - unity-gtk-module-common
       - unity-schemas
-      - unity-session
       
       
 
