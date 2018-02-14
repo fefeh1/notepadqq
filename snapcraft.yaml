@@ -54,7 +54,7 @@ parts:
       - desktop-file-utils
       - bamfdaemon
       - mime-support
-      - libatk-bridge2.0-dev
+      - libatk-adaptor
       - libgail-common
       - overlay-scrollbar-gtk2
       
