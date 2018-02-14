@@ -19,7 +19,7 @@ apps:
       - gsettings
       - home
       - media-hub
-#      - network-bind
+      - network-bind
       - opengl
       - optical-drive
       - removable-media
