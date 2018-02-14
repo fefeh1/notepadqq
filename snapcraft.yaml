@@ -39,7 +39,9 @@ parts:
       
     stage-packages: 
       
-      - qtbase5-dev      
+      - qtbase5-dev 
+      - adwaita-qt
+      - hicolor-icon-theme
       - libqt5webkit5
       - libqt5svg5
       - coreutils
