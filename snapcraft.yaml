@@ -53,6 +53,11 @@ parts:
       - desktop-file-utils
       - bamfdaemon
       - mime-support
+      - libatk-bridge2.0-0
+      - libgail-common
+      - overlay-scrollbar-gtk2
+      
+      
 
     source-type: git
     source: https://github.com/notepadqq/notepadqq
