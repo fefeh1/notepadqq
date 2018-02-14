@@ -14,14 +14,13 @@ apps:
     desktop: usr/local/share/applications/notepadqq.desktop
     plugs:
       - browser-support
-      - dbus
       - desktop
       - desktop-legacy
       - gsettings
       - home
       - media-hub
       - network-bind
-#      - network-manager
+      - network-manager
       - opengl
       - optical-drive
       - removable-media
@@ -44,6 +43,8 @@ parts:
       - qtbase5-dev 
       - adwaita-icon-theme-full
       - hicolor-icon-theme
+      - numix-gtk-theme
+      - light-themes
       - libqt5webkit5
       - libqt5svg5
       - coreutils
