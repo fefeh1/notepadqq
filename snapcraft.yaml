@@ -48,6 +48,11 @@ parts:
       - gtk2-engines-pixbuf
       - packagekit-gtk3-module
       - libcanberra-gtk-module
+      - man-db
+      - gnome-menus
+      - desktop-file-utils
+      - bamfdaemon
+      - mime-support
 
     source-type: git
     source: https://github.com/notepadqq/notepadqq
