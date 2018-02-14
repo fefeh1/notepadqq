@@ -40,25 +40,26 @@ parts:
       
     stage-packages: 
       
-      - qtbase5-dev 
       - adwaita-icon-theme-full
-      - hicolor-icon-theme
-      - numix-gtk-theme
-      - light-themes
-      - libqt5webkit5
-      - libqt5svg5
-      - coreutils
-      - gtk2-engines-pixbuf
-      - packagekit-gtk3-module
-      - libcanberra-gtk-module
-      - man-db
-      - gnome-menus
-      - desktop-file-utils
       - bamfdaemon
-      - mime-support
+      - coreutils
+      - desktop-file-utils
+      - gnome-menus
+      - gtk2-engines-pixbuf
+      - hicolor-icon-theme
       - libatk-adaptor
+      - libcanberra-gtk-module
       - libgail-common
+      - libqt5svg5
+      - libqt5webkit5
+      - light-themes
+      - man-db
+      - mime-support
+      - numix-gtk-theme
       - overlay-scrollbar-gtk2
+      - packagekit-gtk3-module
+      - qtbase5-dev 
+      - unity-gtk-module-common
       
       
 
