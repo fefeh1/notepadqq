@@ -14,12 +14,12 @@ apps:
     desktop: usr/local/share/applications/notepadqq.desktop
     plugs:
       - browser-support
+      - dbus
       - desktop
       - desktop-legacy
       - gsettings
       - home
       - media-hub
-      - network
       - network-bind
 #      - network-manager
       - opengl
