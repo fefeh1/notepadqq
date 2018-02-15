@@ -6,11 +6,6 @@ description: |
   You can search text using the power of regular expressions. You can organize documents side by side. You can use real-time highlighting to find near identifiers in no time.
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs
-fixicon:
-  plugin: nil
-  after: [my-part]
-  install: |
-    sed -i 's|Icon=notepadqq|Icon=/usr/local/share/icons/hicolor/scalable/apps/notepadqq\.svg|' $SNAPCRAFT_STAGE/usr/local/share/applications/notepadqq.desktop
 
 apps:
   notepadqq: 
@@ -32,6 +27,12 @@ apps:
       - x11
 
 parts:
+  fixicon:
+    plugin: nil
+    after: [my-part]
+    install: |
+      sed -i 's|Icon=notepadqq|Icon=/usr/local/share/icons/hicolor/scalable/apps/notepadqq\.svg|' $SNAPCRAFT_STAGE/usr/local/share/applications/notepadqq.desktop
+
   my-part:
     # See 'snapcraft plugins'
     build-packages:
