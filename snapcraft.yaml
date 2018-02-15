@@ -1,13 +1,17 @@
 name: notepadqq # check to see if it's available
-version: '1.2.0+git' # check the version number of notepadqq's packages
+version: '1.2.0.1+git' # check the version number of notepadqq's packages
 summary: Notepadqq is a Notepad++-like editor for the Linux desktop. # 79 char long summary
 description: |
   It helps developers by providing all you can expect from a general purpose text editor, such as syntax highlighting for more than 100 different languages, code folding, color schemes, file monitoring, multiple selection and much more.
   You can search text using the power of regular expressions. You can organize documents side by side. You can use real-time highlighting to find near identifiers in no time.
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs
-icon: notepadqq.svg
-  
+fixicon:
+  plugin: nil
+  after: [my-part]
+  install: |
+    sed -i 's|Icon=notepadqq|Icon=/usr/local/share/icons/hicolor/scalable/apps/notepadqq\.svg|' $SNAPCRAFT_STAGE/usr/local/share/applications/notepadqq.desktop
+
 apps:
   notepadqq: 
     command: desktop-launch $SNAP/usr/local/lib/notepadqq/notepadqq-bin
