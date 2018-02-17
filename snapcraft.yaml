@@ -6,6 +6,8 @@ description: |
   You can search text using the power of regular expressions. You can organize documents side by side. You can use real-time highlighting to find near identifiers in no time.
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs
+icon: notepadqq.svg
+
 
 apps:
   notepadqq: 
